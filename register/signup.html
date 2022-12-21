@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <!-- Main Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Important Meta Tags -->
+    <meta name="author" content="https://www.enote-eg.com" />
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+
+    <!-- Library Styles -->
+    <link rel="stylesheet" href="../assets/scss/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/scss/libs/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="../main.css" />
+
+    <!-- Page Title & Icon -->
+    <title>انشاء حساب</title>
+    <link rel="shortcut icon" href="../assets/images/enote-white.png" />
+</head>
+<body>
+
+    <div id="main-wrapper" class="register">
+        <div class="container-fluid px-0">
+          <div class="row no-gutters min-vh-100"> 
+            <!-- Register Form
+            ========================= -->
+            <div class="col-lg-6 d-flex flex-column align-items-center order-2 order-lg-1">
+              <div class="container pt-5">
+                <div class="row">
+                  <div class="col-11 col-md-10 mx-auto">
+                    <p class="text-right text-2 text-muted font-weight-300">لديك حساب بالفعل ؟ <a class="btn-link font-weight-300" href="login.html">تسجيل الدخول</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="container my-auto py-5 register-form">
+                <div class="row">
+                  <div class="col-11 col-md-10 col-lg-9 col-xl-7 mx-auto">
+                    <h3 class="font-weight-300 text-9 mb-5 ml-3">إنشاء حساب جديد</h3>
+      
+                    <form id="registerForm" method="post">
+      
+                      <div class="form-group font-weight-300">
+                        <input type="text" class="form-control bg-light" id="fullName" required placeholder="الأسم بالكامل">
+                      </div>
+      
+                      <div class="form-group font-weight-300">
+                        <input type="email" class="form-control bg-light" id="emailAddress" required placeholder="الإيميل">
+                      </div>
+      
+                      <div class="form-group font-weight-300">
+                        <input type="password" class="form-control bg-light" id="loginPassword" required placeholder="الباسورد">
+                      </div>
+    
+      
+                      <button class="create-account-btn btn-block font-weight-400 my-4" type="submit">إنشاء حساب </button>
+                    
+                    </form>
+      
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Register Form End --> 
+            
+            <!-- Welcome Text
+            ========================= -->
+            <div class="col-lg-6 bg-grad  order-1 order-lg-2">
+              <div class="container h-100 d-flex flex-column justify-content-center">
+                <div class="welcome-text">
+                  <div class="">
+                    <!-- <div class=""><a class="d-flex" href="index.html" title=""><img src="../assets/images/enote-dark.png" alt=""></a> </div> -->
+                  </div>
+                </div>
+                <div class="">
+                  <div class="col-11 col-md-10 mx-auto">
+                      <img class="re-logo" src="../assets/images/logo-white.png" alt="">
+                      <h1 class="text-13 font-weight-300 mb-4">انضم الى اكبر مجتمع طلاب بجمهورية مصر العربية</h1>
+                    <div class="m-auto text-left">
+                      <button class="create-account-btn btn-block font-weight-400 my-4 w-25">العودة للرئيسية</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Welcome Text End --> 
+          </div>
+        </div>
+      </div>
+
+<!-- Start Scripts -->
+<script src="../assets/js/libs/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+$(document).ready(function () {
+    // Select To
+    $('select').select2({
+        minimumResultsForSearch: Infinity
+    });
+});
+</script>
+<!-- End Scripts -->
+</body>
+</html>

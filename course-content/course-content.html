@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <!-- Main Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Important Meta Tags -->
+    <meta name="author" content="" />
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Library Styles -->
+    <link rel="stylesheet" href="../assets/scss/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="../main.css" />
+
+    <!-- Page Title & Icon -->
+    <title>One Video</title>
+    <link rel="shortcut icon" href="../assets/images/logo.png" />
+
+</head>
+<body>
+
+<!-- *** Start Layout *** -->
+
+<!-- Start Header -->
+<header class="header">
+
+    <div class="container p-0">
+        <div class="header-container">
+            <div class="parent navbar-brand-parent">
+
+                <div class="navbar-actions">
+                    <div class="navbar-brand">
+                        <a href="../home/home.html">
+                            <img src="../assets/images/enote-dark.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="parent">
+                <div class="nav-links">
+                    <ul class="list-unstyled text-center p-0">
+                        <li class="li-active">
+                            <a href="../home/home.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M13 19h6V9.978l-7-5.444-7 5.444V19h6v-6h2v6zm8 1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.49a1 1 0 0 1 .386-.79l8-6.222a1 1 0 0 1 1.228 0l8 6.222a1 1 0 0 1 .386.79V20z"></path>
+                                </svg>
+                                <div class="link-info">
+                                    <span>الرئيسية</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="../bank/bank.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path></svg>
+                                <div class="link-info">
+                                    <span>بنك الأسئلة</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li class="">
+                            <a href="../exam-card/exam-card.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6.455 19L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455zm-.692-2H20V5H4v13.385L5.763 17zm5.53-4.879l4.243-4.242 1.414 1.414-5.657 5.657-3.89-3.89 1.415-1.414 2.475 2.475z"></path></svg>
+                                <div class="link-info">
+                                    <span>الاختبارات</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="../courses/courses.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 18v2h4v2H7v-2h4v-2H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-8zM4 5v11h16V5H4zm6 2.5l5 3-5 3v-6z"></path></svg>
+                                <div class="link-info">
+                                    <span>الفيديوهات</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="../live-class/live-class.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.929 2.929l1.414 1.414A7.975 7.975 0 0 0 4 10c0 2.21.895 4.21 2.343 5.657L4.93 17.07A9.969 9.969 0 0 1 2 10a9.969 9.969 0 0 1 2.929-7.071zm14.142 0A9.969 9.969 0 0 1 22 10a9.969 9.969 0 0 1-2.929 7.071l-1.414-1.414A7.975 7.975 0 0 0 20 10c0-2.21-.895-4.21-2.343-5.657L19.07 2.93zM7.757 5.757l1.415 1.415A3.987 3.987 0 0 0 8 10c0 1.105.448 2.105 1.172 2.828l-1.415 1.415A5.981 5.981 0 0 1 6 10c0-1.657.672-3.157 1.757-4.243zm8.486 0A5.981 5.981 0 0 1 18 10a5.981 5.981 0 0 1-1.757 4.243l-1.415-1.415A3.987 3.987 0 0 0 16 10a3.987 3.987 0 0 0-1.172-2.828l1.415-1.415zM12 12a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-1 2h2v8h-2v-8z"></path></svg>
+                                <div class="link-info">
+                                    <span>الفصل الإفتراضى</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="../files/files.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 16H8V8h4a4 4 0 1 1 0 8zm-2-6v4h2a2 2 0 1 0 0-4h-2zm5-6H5v16h14V8h-4V4zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992z"></path></svg>
+                                <div class="link-info">
+                                    <span>المرفقات</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                    </ul>
+                </div>  
+            </div>
+
+            <div class="parent">
+            
+                <div class="user-action">
+                    <div class="d-flex">
+                        <div class="user-icon">
+                            <figure style="background-image: url(../assets/images/avatar.png);"></figure>
+                        </div>
+                        <div class="user-action-info">
+                            <h3>عبدالحليم على</h3>
+                            <span class="active-account">مفعل</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+<!-- *** End Layout *** -->
+
+<div class="content">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xl-12 col-lg-12">
+                <div class="coures-content">
+
+                    <div class="course-details">
+                        <div href="#" class="course-lesson-head">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24"/>
+                                    <path d="M9.82866499,18.2771971 L16.5693679,12.3976203 C16.7774696,12.2161036 16.7990211,11.9002555 16.6175044,11.6921539 C16.6029128,11.6754252 16.5872233,11.6596867 16.5705402,11.6450431 L9.82983723,5.72838979 C9.62230202,5.54622572 9.30638833,5.56679309 9.12422426,5.7743283 C9.04415337,5.86555116 9,5.98278612 9,6.10416552 L9,17.9003957 C9,18.1765381 9.22385763,18.4003957 9.5,18.4003957 C9.62084305,18.4003957 9.73759731,18.3566309 9.82866499,18.2771971 Z" fill="#000000"/>
+                                </g>
+                            </svg>
+
+                            <p class="course-lesson-title">الوحده الثانية - الدرس الثانى - المناعه بجسم الإنسان</p>
+                        </div>
+
+                        <div class="course-check-text">
+                            
+                        </div>
+                    </div>
+
+                    <div class="course-video">
+                        <video id="player" src="../assets/videos/video-course.json" playsinline controls data-poster="../assets/images/landing/header.png">
+
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Main Scripts -->
+<script src="../assets/js/libs/jquery-3.2.1.min.js"></script>
+<script src="../assets/js/libs/bootstrap.min.js"></script>
+<script src="../assets/js/libs/popper.js"></script>
+<script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
+<script src="../main.js"></script>
+<!-- Addition Scripts -->
+
+<script>
+$(document).ready(function () {
+
+    // Coures Progress
+    $(".course-total-score").text($(".course-lesson").length);
+
+    // Unit Count All Lessons
+    $(".course-unit-total-score").each(function () {
+        $(this).text($(this).parent().parent().parent().next().children().length);
+    });
+
+    // On Load Actions 
+    $(".course-score-number").text($('input[type="checkbox"]:checked').length);
+    $(".progress .inner-progress").each(function () {
+        $(this).css("width", $(this).parent().next().find(".course-score-number").text()*100 / $(this).parent().next().find(".course-total-score").text() + "%");
+        $(this).parent().prev().text(Math.ceil($(this).parent().next().find(".course-score-number").text()*100 / $(this).parent().next().find(".course-total-score").text()) + "%");
+    });
+    // Units Complete
+    $(".course-unit-score-number").each(function () {
+        $(this).text($(this).parent().parent().parent().next().children().children(".course-check").children('input[type="checkbox"]:checked').length);
+    });
+
+    
+    $("input.inp-cbx").on("click", function () {
+        $(".course-score-number").text($('input[type="checkbox"]:checked').length);
+        $(".progress .inner-progress").each(function () {
+            $(this).css("width", $(this).parent().next().find(".course-score-number").text()*100 / $(this).parent().next().find(".course-total-score").text() + "%");
+            $(this).parent().prev().text(Math.ceil($(this).parent().next().find(".course-score-number").text()*100 / $(this).parent().next().find(".course-total-score").text()) + "%");
+        });
+
+        // Units Complete
+        $(".course-unit-score-number").each(function () {
+            $(this).text($(this).parent().parent().parent().next().children().children(".course-check").children('input[type="checkbox"]:checked').length);
+        });
+    });
+
+    // Open & Close Units
+    $(".course-unit").on("click", function () {
+        $(this).parent().children(".course-lessons").slideToggle();
+        $(this).parent().siblings().children(".course-lessons").slideUp();
+        $(this).parent().addClass("course-item-open");
+        $(this).parent().siblings().removeClass("course-item-open");
+    });
+
+    $(".course-lesson-active .course-lesson-head svg").replaceWith(`
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <rect x="0" y="0" width="24" height="24"/>
+                <path d="M8,6 L10,6 C10.5522847,6 11,6.44771525 11,7 L11,17 C11,17.5522847 10.5522847,18 10,18 L8,18 C7.44771525,18 7,17.5522847 7,17 L7,7 C7,6.44771525 7.44771525,6 8,6 Z M14,6 L16,6 C16.5522847,6 17,6.44771525 17,7 L17,17 C17,17.5522847 16.5522847,18 16,18 L14,18 C13.4477153,18 13,17.5522847 13,17 L13,7 C13,6.44771525 13.4477153,6 14,6 Z" fill="#000000"/>
+            </g>
+        </svg>`);
+    });
+
+</script>
+
+<script>
+    const player = new Plyr('#player', {});
+</script>
+
+
+
+
+<!-- <script>
+var visibilityChange = (function (window) {
+    var inView = false;
+    return function (fn) {
+        window.onfocus = window.onblur = window.onpageshow = window.onpagehide = function (e) {
+            if ({focus:1, pageshow:1}[e.type]) {
+                if (inView) return;
+                $("body").removeClass("closevid");
+                fn("visible");
+                inView = true;
+            } else if (inView) {
+                $("body").addClass("closevid");
+                fn("hidden");
+                inView = false;
+            }
+        };
+    };
+}(this));
+
+visibilityChange(function (state) {
+    
+    console.log(state);
+});
+</script> -->
+
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+
+// Course Content
+
+.coures-content {
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .course-details {
+        display: flex;
+        align-items: center;
+        background: #FFF;
+        color: #3e3f5e;
+        border-radius: 12px;
+        box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+        font-size: 0.9rem;
+        padding: 25px 25px;
+        margin-bottom: 15px;
+        @media (max-width: $max-5) {
+            margin-bottom: 8px;
+        }
+        .course-lesson-head {
+            color: #3e3f5e;
+            display: flex;
+            align-items: center;
+            svg {
+                height: 27px;
+                width: 27px;
+                background: #eeeffd;
+                border-radius: 10px;
+                text-align: center;
+                margin: 0 0 0 10px;
+                line-height: 20px;
+                padding: 3px;
+                g [fill] {
+                    fill: #7868e6;
+                }
+            }
+            .course-lesson-title {
+                margin: 0;
+                font-size: 0.9rem;
+                font-weight: 700;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+    iframe {
+        min-height: 600px;
+        width: 100%;
+    }
+}
+
+
+// [lang="en"] {
+//     .course-sidebar {
+//         text-align: left;
+//         .sidebar-content {
+//             .course-head {
+//                 .back {
+//                     svg {
+//                         transform: rotate(180deg);
+//                     }
+//                 }
+//                 .course-name {
+//                     font-size: 1.2rem;
+//                     font-weight: 700;
+//                     color: #3e3f5e;
+//                     letter-spacing: 0;
+//                 }
+//                 .course-progress {
+//                     .course-persentage {
+//                         margin: 0 10px 0 0;
+//                     }
+//                     .progress {
+//                         .inner-progress {
+//                             right: unset;
+//                             left: 0;
+//                             border-top-left-radius: 20px;
+//                             border-bottom-left-radius: 20px;
+//                         }
+//                     }
+//                     .course-score {
+//                         p {
+//                             margin: 0 0 0 10px;
+//                         }
+//                     }
+//                 }
+//             }
+//             .course-content {
+//                 .head-parent {
+//                     display: flex;
+//                     align-items: center;
+//                     padding: 0 30px;
+//                     .text {
+//                         font-weight: 700;
+//                         font-size: 0.8rem;
+//                         margin: 0px 3px 5px 0;
+//                     }
+//                 }
+//                 .course-item {
+//                     .course-unit {
+//                         .course-unit-head {
+//                             svg {
+//                                 margin-left: unset;
+//                                 margin-right: 5px;
+//                                 transform: rotate(180deg);
+//                             }
+//                         }
+//                     }
+//                     .course-lessons {
+//                         .course-lesson {
+//                             .course-lesson-head {
+//                                 svg {
+//                                     margin: 0 10px 0 0;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     .coures-content {
+//         .course-details {
+//             .course-lesson-head {
+//                 svg {
+//                     margin: 0 10px 0 0;
+//                 }
+//             }
+//         }
+//     }
+// }

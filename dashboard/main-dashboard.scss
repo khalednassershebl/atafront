@@ -1,0 +1,133 @@
+* {
+    font-family: "cairo" !important;
+}
+// Imports
+@import "questions/questions";
+@import "book/add-book";
+
+// Main Style
+body {
+    font-family: "cairo";
+    background-color: #f5f8fa !important;
+    height: 100%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    direction: rtl;
+    text-align: right;
+}
+
+// General
+.inputs-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .input-parent {
+        position: relative;
+        input[type="radio"] {
+            opacity: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            cursor: pointer;
+        }
+        label {
+            display: flex;
+            flex: auto;
+            vertical-align: middle;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            cursor: pointer;
+            background-color: #f5f8fa;
+            border: 1px solid #dddddd;
+            color: #232323;
+            padding: 7px 25px;
+            border-radius: 50px;
+            transition: color --transition-fast ease-out, background-color --transition-fast ease-in;
+            user-select: none;
+            margin-left: 8px;
+            margin-bottom: 0;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+        input[type="number"] {
+            min-width: 300px;
+            background-color: #f5f8fa;
+            border-color: #f5f8fa;
+            color: #5e6278;
+            transition: color 0.2s ease;
+            border: 1px solid #e4e6ef;
+            box-shadow: none !important;
+            display: block;
+            width: 100%;
+            padding: 0.775rem 1rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+            line-height: 1.2;
+            appearance: none;
+            border-radius: 0.475rem;
+            &:active {
+                background-color: #f5f8fa;
+                border-color: #f5f8fa;
+                color: #5e6278;
+            }
+            &:focus {
+                background-color: #f5f8fa;
+                border-color: #f5f8fa;
+                color: #5e6278;
+            }
+        }
+    }
+    input[type="radio"]:checked + label {
+        background-color: #009ef7;
+        border: 1px solid #009ef7;
+        color: #FFF;
+    }
+    input[type="radio"]:hover:not(:checked) + label {
+       background-color: transparent;
+       border: 1px solid #009ef7;
+       color: #232323;
+    }
+}
+
+input, textarea, select {
+    width: 100%;
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    color: #000;
+    transition: color 0.2s ease;
+    border: 1px solid #e4e6ef;
+    box-shadow: none !important;
+    display: block;
+    padding: 0.775rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    border-radius: 0.475rem;
+    outline: none;
+    &:active {
+        border: 1px solid #adadad;
+    }
+    &:focus {
+        border: 1px solid #adadad;
+    }
+    &:focus-visible {
+        border: 1px solid #adadad;
+    }
+}
+textarea {
+    min-height: 150px;
+}
+select {
+    min-width: 250px;
+}
+
+.tox-statusbar,
+.tox-notifications-container {
+    display: none !important;
+}

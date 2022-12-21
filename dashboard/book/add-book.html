@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <!-- Main Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Important Meta Tags -->
+    <meta name="author" content="" />
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Library Styles -->
+    <link rel="stylesheet" href="../../assets/scss/libs/bootstrap.min.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="../main-dashboard.css" />
+
+    <!-- Page Title & Icon -->
+    <title>Add Book</title>
+    <link rel="shortcut icon" href="../../assets/images/logo.png" />
+
+</head>
+<body>
+
+<div class="dashboard-content">
+
+    <div class="add-new-book">
+
+        <div class="add-new-book-header">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h14V5H5zm6 6V7h2v4h4v2h-4v4h-2v-4H7v-2h4z"/></svg>
+            <span>أضف كتاب جديد</span>
+        </div>
+
+        <div class="add-new-book-content">
+
+            <div class="content-line">
+                <span class="pretitle">اسم الكتاب</span>
+                <input type="text" />
+            </div>
+
+            <div class="content-line">
+                <span class="pretitle">وصف الكتاب</span>
+                <textarea></textarea>
+            </div>
+
+            <div class="content-line">
+                <span class="pretitle">التيرم الدراسى</span>
+                <div class="inputs-parent">
+                    <div class="input-parent" id="q-type-1">
+                        <input type="radio" name="name"/>
+                        <label for="id1">التيرم الأول</label>
+                    </div>
+                    <div class="input-parent" id="q-type-2">
+                        <input type="radio" name="name"/>
+                        <label for="id2">التيرم الثانى</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-line">
+                <span class="pretitle">الصف الدراسى</span>
+                <div class="inputs-parent">
+                    <div class="input-parent" id="c-ans1">
+                        <input type="radio" name="name" id="id1" value="d"/>
+                        <label for="id1">الثالث الإعدادى</label>
+                    </div>
+                    <div class="input-parent" id="c-ans2">
+                        <input type="radio" name="name" id="id2" value="d"/>
+                        <label for="id1">الأول الثانوى</label>
+                    </div>
+                    <div class="input-parent" id="c-ans3">
+                        <input type="radio" name="name" id="id3" value="d"/>
+                        <label for="id1">الثانى الثانوى</label>
+                    </div>
+                    <div class="input-parent" id="c-ans4">
+                        <input type="radio" name="name" id="id4" value="d"/>
+                        <label for="id1">الثالث الثانوى</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-line">
+                <span class="pretitle">اختر المادة</span>
+                <div class="inputs-parent">
+                    <div class="input-parent">
+                        <select name="" id="">
+                            <option value="">اللغة العربية</option>
+                            <option value="">الجبر والفراغية</option>
+                            <option value="">الاحياء</option>
+                            <option value="">الفيزياء</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="add-new-book-footer">
+            <a href="#" class="save-button">حفظ</a>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Main Scripts -->
+<script src="../../assets/js/libs/jquery-3.2.1.min.js"></script>
+<script src="../../assets/js/libs/bootstrap.min.js"></script>
+<script src="../../assets/js/libs/popper.js"></script>
+
+
+</body>
+</html>

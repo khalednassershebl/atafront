@@ -1,0 +1,111 @@
+.col-xl-3,
+.col-lg-3,
+.col-md-4,
+.col-sm-6 {
+    padding: 0 8px;
+}
+.file {
+    color: #3e3f5e;
+    background: #FFF;
+    padding: 25px 25px 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 40px 0 rgba(94,92,154,.06);
+    margin-bottom: 15px;
+    .file-head {
+        display: flex;
+        align-items: center;
+        img {
+            max-width: 100%;
+            height: 50px;
+        }
+        .file-des {
+            margin-right: 10px;
+            text-align: right;
+            h3 {
+                font-size: 0.85rem;
+                font-weight: 700;
+                margin: 0 0 -2px 0;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+            .date {
+                font-size: 0.65rem;
+                color: #808196;
+            }
+        }
+    }
+    .file-info {
+        border-top: 1px solid #eaeaf5;
+        padding: 5px 0 0 0;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .size {
+            text-align: right;
+            h6 {
+                font-size: 0.7rem;
+                font-weight: 700;
+                margin: 10px 0 -3px 0;
+            }
+            span {
+                font-size: 0.7rem;
+                color: #808196;
+                text-align: right;
+            }
+        }
+        .actions {
+            margin-top: 10px;
+            .download {
+                display: block;
+                background: #f6f8ff;
+                padding: 5px 12px;
+                border-radius: 7px;
+                height: 33px;
+                width: auto;
+                color: var(--p-color);
+                font-size: 0.7rem;
+                font-weight: 700;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                span {
+                    margin-right: 5px;
+                }
+                svg {
+                    height: 19px;
+                    width: 19px;
+                    fill: #7868e6;
+                }
+            }
+        }
+    }
+}
+// [lang="en"] {
+//     .file {
+//         direction: ltr;
+//         .file-head {
+//             .file-des {
+//                 text-align: left;
+//                 margin-right: 0;
+//                 margin-left: 10px;
+//             }
+//         }
+//         .file-info {
+//             .size {
+//                 text-align: left;
+//             }
+//             .actions {
+//                 .download {
+//                     padding: 5px 8px;
+//                     span {
+//                         margin-right: 0;
+//                         margin-left: 5px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

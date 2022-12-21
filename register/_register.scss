@@ -1,0 +1,151 @@
+.register {
+    form {
+        width: 100%;
+        position: relative;
+        color: #000;
+        .form-group {
+            width: 100%;
+            position: relative;
+            margin: 0px 6px;
+            label {
+                color: #adafca;
+                font-size: 0.85rem;
+                font-weight: 600;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                text-align: center;
+                transition: all .3s ease-in-out;
+                pointer-events: none;
+                display: block;
+                margin: 0;
+                line-height: 1em;
+                padding: 0 6px;
+                font-size: 0.7rem;
+                top: -15px;
+            }
+            input {
+                height: 50px;
+                padding: 0 25px;
+                border: 1px solid #e1e1e1;
+                color: #3e3f5e;
+                transition: border-color .2s ease-in-out;
+                width: 100%;
+                border-radius: 50px;
+                font-size: 0.9rem;
+                font-weight: 700;
+                margin-bottom: 20px;
+                &::placeholder {
+                  color: #9999bb !important;
+                  font-weight: 500 !important;
+                }
+                &:focus {
+                    border-color: #615dfa;
+                    box-shadow: none;
+                    outline: none;
+                }
+            }
+            select {
+                cursor: pointer;
+            }
+        }
+        p.text {
+            margin-top: 30px;
+            font-size: .875rem;
+            line-height: 1.7142857143em;
+            font-weight: 500;
+            color: #3e3f5e;
+            a {
+                text-decoration: none;
+                color: #0169f7;
+                font-weight: 700;
+            }
+        }
+        .active-input {
+            label {
+                background: #FFF;
+                padding: 0 6px;
+                font-size: 0.7rem;
+                top: -6px;
+                right: 12px;
+            }
+        }
+    }
+    .create-account-btn {
+        text-decoration: none;
+        width: 100%;
+        margin: auto;
+        color: #FFF;
+        display: inline-block;
+        height: 45px;
+        border-radius: 50px;
+        font-size: .75rem;
+        font-weight: 700;
+        text-align: center;
+        line-height: 45px;
+        cursor: pointer;
+        margin-top: 15px;
+        transition: background-color .2s ease-in-out;
+        background-color: #212529;
+        border: 0;
+        border-radius: 1px !important;
+        svg {
+            height: 18px;
+            margin-left: 4px;
+            path {
+                fill: #FFF;
+            }
+        }
+        &:hover {
+            background-color: #212529;
+        }
+    }
+    .re-logo {
+        margin-bottom: 35px;
+        width: 375px;
+    }
+}
+.bg-grad {
+    background: linear-gradient(to right, #0169f7 20%, #01e8cb);
+    h1 {
+        color: #FFF !important;
+        @media (max-width: $max-5) {
+            font-size: 1.75rem;
+        }
+    }
+    .create-account-btn {
+        background: transparent;
+        border: 1px solid #FFF;
+        display: flex;
+        margin-right: 0;
+        text-align: center;
+        justify-content: center;
+        border-radius: 1px !important;
+        min-width: 150px;
+    }
+}
+.welcome-text {
+    img {
+        width: 225px;
+        margin: 0 50px;
+        padding: 15px;
+    }
+}
+.register-form {
+    h3 {
+        color: #000;
+    }
+    .form-group {
+        margin: 10px 0;
+        .form-control {
+            border-radius: 1px;
+        }
+    } 
+    label {
+        color: #000;
+        a {
+            color: #0169f7;
+        }
+    }
+}

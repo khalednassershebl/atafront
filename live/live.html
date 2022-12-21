@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <!-- Main Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Important Meta Tags -->
+    <meta name="author" content="" />
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Library Styles -->
+    <link rel="stylesheet" href="../assets/scss/libs/bootstrap.min.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="../main.css" />
+
+    <!-- Page Title & Icon -->
+    <title>Lives</title>
+    <link rel="shortcut icon" href="../assets/images/logo.png" />
+
+</head>
+<body>
+
+<!-- *** Start Layout *** -->
+
+<!-- Start Header -->
+<header class="header">
+
+    <div class="container p-0">
+        <div class="header-container">
+            <div class="parent navbar-brand-parent">
+
+                <div class="navbar-actions">
+                    <div class="navbar-brand">
+                        <a href="../home/home.html">
+                            <img src="../assets/images/enote-dark.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="parent">
+                <div class="nav-links">
+                    <ul class="list-unstyled text-center p-0">
+                        <li class="li-active">
+                            <a href="../home/home.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M13 19h6V9.978l-7-5.444-7 5.444V19h6v-6h2v6zm8 1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.49a1 1 0 0 1 .386-.79l8-6.222a1 1 0 0 1 1.228 0l8 6.222a1 1 0 0 1 .386.79V20z"></path>
+                                </svg>
+                                <div class="link-info">
+                                    <span>الرئيسية</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="../bank/bank.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path></svg>
+                                <div class="link-info">
+                                    <span>بنك الأسئلة</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li class="">
+                            <a href="../exam-card/exam-card.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6.455 19L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455zm-.692-2H20V5H4v13.385L5.763 17zm5.53-4.879l4.243-4.242 1.414 1.414-5.657 5.657-3.89-3.89 1.415-1.414 2.475 2.475z"></path></svg>
+                                <div class="link-info">
+                                    <span>الاختبارات</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="../courses/courses.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 18v2h4v2H7v-2h4v-2H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-8zM4 5v11h16V5H4zm6 2.5l5 3-5 3v-6z"></path></svg>
+                                <div class="link-info">
+                                    <span>الفيديوهات</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="../live-class/live-class.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.929 2.929l1.414 1.414A7.975 7.975 0 0 0 4 10c0 2.21.895 4.21 2.343 5.657L4.93 17.07A9.969 9.969 0 0 1 2 10a9.969 9.969 0 0 1 2.929-7.071zm14.142 0A9.969 9.969 0 0 1 22 10a9.969 9.969 0 0 1-2.929 7.071l-1.414-1.414A7.975 7.975 0 0 0 20 10c0-2.21-.895-4.21-2.343-5.657L19.07 2.93zM7.757 5.757l1.415 1.415A3.987 3.987 0 0 0 8 10c0 1.105.448 2.105 1.172 2.828l-1.415 1.415A5.981 5.981 0 0 1 6 10c0-1.657.672-3.157 1.757-4.243zm8.486 0A5.981 5.981 0 0 1 18 10a5.981 5.981 0 0 1-1.757 4.243l-1.415-1.415A3.987 3.987 0 0 0 16 10a3.987 3.987 0 0 0-1.172-2.828l1.415-1.415zM12 12a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-1 2h2v8h-2v-8z"></path></svg>
+                                <div class="link-info">
+                                    <span>الفصل الإفتراضى</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="../files/files.html">
+                                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 16H8V8h4a4 4 0 1 1 0 8zm-2-6v4h2a2 2 0 1 0 0-4h-2zm5-6H5v16h14V8h-4V4zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992z"></path></svg>
+                                <div class="link-info">
+                                    <span>المرفقات</span>
+                                </div>
+                            </a>
+                        </li>
+            
+                    </ul>
+                </div>  
+            </div>
+
+            <div class="parent">
+            
+                <div class="user-action">
+                    <div class="d-flex">
+                        <div class="user-icon">
+                            <figure style="background-image: url(../assets/images/avatar.png);"></figure>
+                        </div>
+                        <div class="user-action-info">
+                            <h3>عبدالحليم على</h3>
+                            <span class="active-account">مفعل</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+<!-- *** End Layout *** -->
+
+<div class="content">
+    <div class="container">
+
+        <!-- <div class="banner">
+            <div class="img-icon">
+                <img src="../assets/images/live-icon.svg" alt="">
+            </div>
+            <div class="banner-content">
+                <p class="section-banner-title">Virtua Classes</p>
+                <p class="section-banner-text">  </p>
+            </div>
+        </div> -->
+
+        <div class="section-header">
+            <h3>الفصول الإفتراضية</h3>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="live-card">
+
+                    <figure style="background-image: url(../assets/images/landing/header.png)">
+                        <div class="live-date-abs">
+                            <p class="date-number">15</p>
+                            <p class="date-month">SEP</p>
+                        </div>
+                    </figure>
+
+                    <div class="live-content">
+                        <span class="live-time">
+                            <span>08:30 AM</span>
+                        </span>
+                        <h6>Study First Chapter Name And It's Names</h6>
+                        <p>In this lesson, we will learn about everything related to the planet Earth in all aspects
+                        </p>
+                    </div>
+
+                    <div class="live-actions">
+                        <div class="clockdiv" data-date="Feb 1, 2021 21:14:01">
+                            <span class="days"></span>
+
+                            <span class="hours"></span>
+
+                            <span class="minutes"></span>
+
+                            <span class="seconds"></span>
+                        </div>
+                        <a href="#" class="join-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24"/>
+                                    <circle fill="#000000" opacity="0.3" cx="8" cy="16" r="2"/>
+                                    <path d="M9,19 L5.00096004,19 C4.96315967,14.3606423 6.04480907,10.9610276 8.41240045,8.89946335 C10.6738787,6.93029637 13.8932784,5.99355491 18.0040306,6.00000246 L17.9977567,9.99999754 C14.7751756,9.99494305 12.4778257,10.6633977 11.0391383,11.9161251 C9.70656404,13.0764552 8.97080234,15.4164797 9,19 Z" fill="#000000" fill-rule="nonzero" transform="translate(11.502017, 12.499985) scale(-1, 1) translate(-11.502017, -12.499985) "/>
+                                </g>
+                            </svg>
+                            Join
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="live-card">
+
+                    <figure style="background-image: url(../assets/images/landing/header3.jpg)">
+                        <div class="live-date-abs">
+                            <p class="date-number">15</p>
+                            <p class="date-month">SEP</p>
+                        </div>
+                    </figure>
+
+                    <div class="live-content">
+                        <span class="live-time">
+                            <span>08:30 AM</span>
+                        </span>
+                        <h6>Study First Chapter Name And It's Names</h6>
+                        <p>In this lesson, we will learn about everything related to the planet Earth in all aspects
+                        </p>
+                    </div>
+
+                    <div class="live-actions">
+                        <div class="clockdiv" data-date="Feb 1, 2021 21:14:01">
+                            <span class="days"></span>
+
+                            <span class="hours"></span>
+
+                            <span class="minutes"></span>
+
+                            <span class="seconds"></span>
+                        </div>
+                        <a href="#" class="join-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24"/>
+                                    <circle fill="#000000" opacity="0.3" cx="8" cy="16" r="2"/>
+                                    <path d="M9,19 L5.00096004,19 C4.96315967,14.3606423 6.04480907,10.9610276 8.41240045,8.89946335 C10.6738787,6.93029637 13.8932784,5.99355491 18.0040306,6.00000246 L17.9977567,9.99999754 C14.7751756,9.99494305 12.4778257,10.6633977 11.0391383,11.9161251 C9.70656404,13.0764552 8.97080234,15.4164797 9,19 Z" fill="#000000" fill-rule="nonzero" transform="translate(11.502017, 12.499985) scale(-1, 1) translate(-11.502017, -12.499985) "/>
+                                </g>
+                            </svg>
+                            Join
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="live-card">
+
+                    <figure style="background-image: url(../assets/images/landing/header.png)">
+                        <div class="live-date-abs">
+                            <p class="date-number">15</p>
+                            <p class="date-month">SEP</p>
+                        </div>
+                    </figure>
+
+                    <div class="live-content">
+                        <span class="live-time">
+                            <span>08:30 AM</span>
+                        </span>
+                        <h6>Study First Chapter Name And It's Names</h6>
+                        <p>In this lesson, we will learn about everything related to the planet Earth in all aspects
+                        </p>
+                    </div>
+
+                    <div class="live-actions">
+                        <div class="clockdiv" data-date="Feb 1, 2021 21:14:01">
+                            <span class="days"></span>
+
+                            <span class="hours"></span>
+
+                            <span class="minutes"></span>
+
+                            <span class="seconds"></span>
+                        </div>
+                        <a href="#" class="join-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24"/>
+                                    <circle fill="#000000" opacity="0.3" cx="8" cy="16" r="2"/>
+                                    <path d="M9,19 L5.00096004,19 C4.96315967,14.3606423 6.04480907,10.9610276 8.41240045,8.89946335 C10.6738787,6.93029637 13.8932784,5.99355491 18.0040306,6.00000246 L17.9977567,9.99999754 C14.7751756,9.99494305 12.4778257,10.6633977 11.0391383,11.9161251 C9.70656404,13.0764552 8.97080234,15.4164797 9,19 Z" fill="#000000" fill-rule="nonzero" transform="translate(11.502017, 12.499985) scale(-1, 1) translate(-11.502017, -12.499985) "/>
+                                </g>
+                            </svg>
+                            Join
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="live-card">
+
+                    <figure style="background-image: url(../assets/images/landing/header2.webp)">
+                        <div class="live-date-abs">
+                            <p class="date-number">15</p>
+                            <p class="date-month">SEP</p>
+                        </div>
+                    </figure>
+
+                    <div class="live-content">
+                        <span class="live-time">
+                            <span>08:30 PM</span>
+                        </span>
+                        <h6>Study First Chapter Name And It's Names</h6>
+                        <p>In this lesson, we will learn about everything related to the planet Earth in all aspects
+                        </p>
+                    </div>
+
+                    <div class="live-actions">
+                        <div class="clockdiv" data-date="Feb 10, 2021 21:15:05">
+                            <span class="days"></span>
+
+                            <span class="hours"></span>
+
+                            <span class="minutes"></span>
+
+                            <span class="seconds"></span>
+                        </div>
+                        <a href="#" class="join-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24"/>
+                                    <circle fill="#000000" opacity="0.3" cx="8" cy="16" r="2"/>
+                                    <path d="M9,19 L5.00096004,19 C4.96315967,14.3606423 6.04480907,10.9610276 8.41240045,8.89946335 C10.6738787,6.93029637 13.8932784,5.99355491 18.0040306,6.00000246 L17.9977567,9.99999754 C14.7751756,9.99494305 12.4778257,10.6633977 11.0391383,11.9161251 C9.70656404,13.0764552 8.97080234,15.4164797 9,19 Z" fill="#000000" fill-rule="nonzero" transform="translate(11.502017, 12.499985) scale(-1, 1) translate(-11.502017, -12.499985) "/>
+                                </g>
+                            </svg>
+                            Join
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="live-card">
+
+                    <figure style="background-image: url(../assets/images/landing/header3.jpg)">
+                        <div class="live-date-abs">
+                            <p class="date-number">9</p>
+                            <p class="date-month">JAN</p>
+                        </div>
+                    </figure>
+
+                    <div class="live-content">
+                        <span class="live-time">
+                            <span>09:30 PM</span>
+                        </span>
+                        <h6>Study First Chapter Name And It's Names</h6>
+                        <p>In this lesson, we will learn about everything related to the planet Earth in all aspects
+                        </p>
+                    </div>
+
+                    <div class="live-actions">
+
+                        <div class="record-lesson-upload pending-record"> <!-- Class pending-record ( لبيان حالة ان الفيديو فى حالة الرفع ) -- Class uploaded-record ( لبيان ان الفيديو جاهز للمشاهدة ) -->
+                            <a href="#" class="text-link">Class Record will be available soon</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="live-card">
+
+                    <figure style="background-image: url(../assets/images/landing/header.png)">
+                        <div class="live-date-abs">
+                            <p class="date-number">3</p>
+                            <p class="date-month">MAY</p>
+                        </div>
+                    </figure>
+
+                    <div class="live-content">
+                        <span class="live-time">
+                            <span>08:30 PM</span>
+                        </span>
+                        <h6>Study First Chapter Name And It's Names</h6>
+                        <p>In this lesson, we will learn about everything related to the planet Earth in all aspects
+                        </p>
+                    </div>
+
+                    <div class="record-lesson-upload uploaded-record"> <!-- Class pending-record ( لبيان حالة ان الفيديو فى حالة الرفع ) -- Class uploaded-record ( لبيان ان الفيديو جاهز للمشاهدة ) -->
+                        <a href="live-lesson.html" class="text-link">View Class Record</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="live-card">
+
+                    <figure style="background-image: url(../assets/images/landing/header2.webp)">
+                        <div class="live-date-abs">
+                            <p class="date-number">26</p>
+                            <p class="date-month">JAN</p>
+                        </div>
+                    </figure>
+
+                    <div class="live-content">
+                        <span class="live-time">
+                            <span>08:30 PM</span>
+                        </span>
+                        <h6>Study First Chapter Name And It's Names</h6>
+                        <p>In this lesson, we will learn about everything related to the planet Earth in all aspects
+                        </p>
+                    </div>
+
+                    <div class="live-actions">
+                        <div class="clockdiv" data-date="Feb 1, 2022 21:14:01">
+                            <span class="days"></span>
+
+                            <span class="hours"></span>
+
+                            <span class="minutes"></span>
+
+                            <span class="seconds"></span>
+                        </div>
+                        <a href="#" class="join-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24"/>
+                                    <circle fill="#000000" opacity="0.3" cx="8" cy="16" r="2"/>
+                                    <path d="M9,19 L5.00096004,19 C4.96315967,14.3606423 6.04480907,10.9610276 8.41240045,8.89946335 C10.6738787,6.93029637 13.8932784,5.99355491 18.0040306,6.00000246 L17.9977567,9.99999754 C14.7751756,9.99494305 12.4778257,10.6633977 11.0391383,11.9161251 C9.70656404,13.0764552 8.97080234,15.4164797 9,19 Z" fill="#000000" fill-rule="nonzero" transform="translate(11.502017, 12.499985) scale(-1, 1) translate(-11.502017, -12.499985) "/>
+                                </g>
+                            </svg>
+                            Join
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Main Scripts -->
+<script src="../assets/js/libs/jquery-3.2.1.min.js"></script>
+<script src="../assets/js/libs/bootstrap.min.js"></script>
+<script src="../assets/js/libs/popper.js"></script>
+<script src="../main.js"></script>
+<!-- Addition Scripts -->
+
+<script>
+    
+document.addEventListener('readystatechange', event => {
+        if (event.target.readyState === "complete") {
+    
+            var clockdiv = document.getElementsByClassName("clockdiv");
+            var countDownDate = new Array();
+    
+            for (var i = 0; i < clockdiv.length; i++) {
+                countDownDate[i] = new Array();
+                countDownDate[i]['el'] = clockdiv[i];
+                countDownDate[i]['time'] = new Date(clockdiv[i].getAttribute('data-date')).getTime();
+                countDownDate[i]['days'] = 0;
+                countDownDate[i]['hours'] = 0;
+                countDownDate[i]['seconds'] = 0;
+                countDownDate[i]['minutes'] = 0;
+            }
+
+            var countdownfunction = setInterval(function() {
+
+            for (var i = 0; i < countDownDate.length; i++) {
+                var now = new Date().getTime();
+                var distance = countDownDate[i]['time'] - now;
+                countDownDate[i]['days'] = Math.floor(distance / (1000 * 60 * 60 * 24));
+                countDownDate[i]['hours'] = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                countDownDate[i]['minutes'] = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                countDownDate[i]['seconds'] = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                if (distance < 0) {
+                    countDownDate[i]['el'].style.backgroundColor = "#ee4266";
+                    countDownDate[i]['el'].style.color = "#FFF";
+                    countDownDate[i]['el'].innerHTML = "LIVE";
+                    countDownDate[i]['el'].nextElementSibling.classList.add("active-live");
+                } else {
+                    countDownDate[i]['el'].querySelector('.days').innerHTML = countDownDate[i]['days'] + "d";
+                    countDownDate[i]['el'].querySelector('.hours').innerHTML = countDownDate[i]['hours'] + "h";
+                    countDownDate[i]['el'].querySelector('.minutes').innerHTML = countDownDate[i]['minutes'] + "m";
+                    countDownDate[i]['el'].querySelector('.seconds').innerHTML = countDownDate[i]['seconds'] + "s";
+                }
+
+            }
+
+            }, 1000);
+
+        }
+    });
+
+</script>
+
+</body>
+</html>
