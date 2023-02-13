@@ -1,0 +1,68 @@
+.sales-info {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.02);
+    padding: 0 0;
+    border: 2px solid #eeeeee;
+    .sales-header {
+        display: flex;
+        align-items: center;
+        padding: 25px 25px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        background: #f5f8fa;
+        svg {
+            height: 22px;
+            width: 22px;
+            fill: #009ef7;
+        }
+        span {
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+    }
+    .sales-content {
+        border-top: 2px solid #eeeeee;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        padding: 25px;
+        .content-line {
+            padding: 15px 0;
+            .pretitle {
+                color: #000;
+                font-size: 0.8rem;
+                font-weight: 700;
+                margin-bottom: 15px;
+                display: block;
+                margin-right: 5px;
+            }
+            .editor-parent {
+                margin: 15px 0;
+            }
+            select {
+                height: 50px;
+                padding: 0 15px;
+            }
+        }
+    }
+    .sales-footer {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 25px 25px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        background: #f5f8fa;
+        .save-button {
+            background: #009ef7;
+            border-radius: 6px;
+            padding: 10px 50px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: block;
+            color: #FFF;
+        }
+    }
+}
